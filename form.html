@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- Hafiz Shahzaib Ali (WMA-347030) -->
+    <h1>Application Form</h1>
+    <form action="">
+        <label for="f_name">First Name:</label>
+        <input type="text" id="f_name" name="f_name" autofocus required>
+        <label for="l_name">Last Name:</label>
+        <input type="text" id="l_name" name="l_name" required>
+        <br>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <br>
+        <br>
+        <label for="gender">Gender:</label>
+        <select name="" id="gender">
+            <option value="Male" id="gender">Male</option>
+            <option value="Female" id="gender">Female</option>
+        </select>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter email address">
+        <br>
+        <br>
+        <label>Positions Available:</label>
+        <input type="radio" id="JD" name="position">
+        <label for="JD">Junior Developer</label>
+        <input type="radio" id="MLD" name="position">
+        <label for="MLD">Mid-level Developer</label>
+        <input type="radio" id="SD" name="position">
+        <label for="SD">Senior Developer</label>
+        <br>
+        <br>
+        <label>Programming Languages:</label>
+        <input type="checkbox" id="Java" name="Java">
+        <label for="Java">Java</label>
+        <input type="checkbox" id="JS" name="JS">
+        <label for="JS">Mid-level Developer</label>
+        <input type="checkbox" id="py" name="py">
+        <label for="py">Python</label>
+        <br>
+        <br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd" required>
+        <label for="c_pwd">Confirm Password:</label>
+        <input type="password" id="c_pwd" name="c_pwd" required>
+        <br>
+        <br>
+        <input type="submit" value="Submit" name="submitbtn">
+        <input type="reset" name="reset" id="reset">
+    </form>
+</body>
+</html>
